@@ -1,0 +1,394 @@
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import (
+    QApplication,
+    QWidget,
+    QHBoxLayout,
+    QVBoxLayout,
+    QGroupBox,
+    QRadioButton,
+    QPushButton,
+    QLineEdit,
+    QLabel)
+from PyQt5 import QtGui
+import pywinstyles
+
+stfb = """
+    QPushButton {
+        color:gray;
+        border-color:gray;
+        border-radius: 5px;
+        border-width:1px;
+        padding:10 px;
+        border-style: outset;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    QPushButton:hover {
+        color:gray;
+        border: 1px solid gray;
+        font-weight: 900;
+        border-width:1px;
+    }
+    """
+def rub(t11, t34, t35):
+    t22.append(t11)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t11)
+
+
+def rub2(t12, t34, t35):
+    t22.append(t12)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t12)
+
+def rub3(t13, t34, t35):
+    t22.append(t13)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t13)
+
+def rub4(t14, t34, t35):
+    t22.append(t14)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t14)
+
+def rub5(t15, t34, t35):
+    t22.append(t15)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t15)
+
+def rub6(t16, t34, t35):
+    t22.append(t16)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t16)
+
+def rub7(t17, t34, t35):
+    t22.append(t17)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t17)
+
+def rub8(t18, t34, t35):
+    t22.append(t18)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t18)
+
+def rub9(t19, t34, t35):
+    t22.append(t19)
+    er = len(t22)
+    for i in range(er):
+        sex = t22[i]
+        t34 = t34 + str(sex)
+    lable.setText(t34)
+    lable.setStyleSheet("color:gray;font-size:32px;")
+    t35.append(t19)
+
+def rub0(t10, t34, t22, t35):
+    sex = len(t22)
+    if sex != 0:
+        sex2 = t22[0]
+        if sex2 != "-":
+            t22.append(t10)
+            er = len(t22)
+            for i in range(er):
+                sex = t22[i]
+                t34 = t34 + str(sex)
+            lable.setText(t34)
+            lable.setStyleSheet("color:gray;font-size:32px;")
+            t35.append(t10)
+
+def rubq(t1q, t34, t1w, t22, t35, t23, re):
+    sex0 = re[0]
+    sex11 = len(t35)
+    sex12 = ""
+    for i in range(sex11):
+        sex13 = t35[i]
+        sex12 = sex12 + sex13
+    if sex0 == "2":
+        sex12 = "-" + sex12
+    re.clear()
+    re.append('2')
+    t35.clear()
+    t23.append(sex12)
+    t24 = len(t22)
+    t22.reverse()
+    if t24 != 0:
+        t44 = t22[0]
+        if t44 != t1w and t44 != t1q:
+            t22.reverse()
+            t22.append(t1q)
+            er = len(t22)
+            for i in range(er):
+                sex = t22[i]
+                t34 = t34 + str(sex)
+            lable.setText(t34)
+            lable.setStyleSheet("color:gray;font-size:32px;")
+        else:
+            t22.reverse()
+    else:
+        t22.append(t1q)
+        lable.setText(t1q)
+        lable.setStyleSheet("color:gray;font-size:32px;")
+
+
+
+def rubw(t1w, t34, t1q, t22, re):
+    sex11 = len(t35)
+    sex12 = ""
+    sex0 = re[0]
+    for i in range(sex11):
+        sex13 = t35[i]
+        sex12 = sex12 + sex13
+    if sex0 == "2":
+        sex12 = "-" + sex12
+    re.clear()
+    re.append('1')
+    t35.clear()
+    t23.append(sex12)
+    t24 = len(t22)
+    t22.reverse()
+    if t24 != 0:
+        t44 = t22[0]
+        if t44 != t1w and t44 != t1q:
+            t22.reverse()
+            t22.append(t1w)
+            er = len(t22)
+            for i in range(er):
+                sex = t22[i]
+                t34 = t34 + str(sex)
+            lable.setText(t34)
+            lable.setStyleSheet("color:gray;font-size:32px;")
+        else:
+            t22.reverse()
+    
+
+
+def rube(t34, t22, t23, t35, re):
+    sex11 = len(t35)
+    sex12 = ""
+    sex0 = re[0]
+    for i in range(sex11):
+        sex13 = t35[i]
+        sex12 = sex12 + sex13
+    if sex0 == "2":
+        sex12 = "-" + sex12
+    re.clear()
+    re.append('1')
+    t35.clear()
+    t23.append(sex12)
+    t22.clear()
+    t45 = 0
+    er = len(t23)  
+    for i in range(er):
+        sex = t23[i]
+        if sex == "":
+            sex = "0"
+        t45 = t45 + int(sex)
+    t23.clear()
+    t34 = str(t45)
+    t35.append(t34)
+    t22.append(t34)
+    lable.setText(str(t34))
+    lable.setStyleSheet("color:gray;font-size:32px;")
+
+
+
+    
+
+
+def rubr(t34, t35):
+    sex = len(t22)
+    sex2 = len(t35)
+    if sex != 0:
+        t22.pop()
+        er = len(t22)
+        for i in range(er):
+            sex = t22[i]
+            t34 = t34 + str(sex)
+        lable.setText(t34)
+        lable.setStyleSheet("color:gray;font-size:32px;")
+    if sex2 != 0:
+        t35.pop()
+
+
+def rubt(t22, t35):
+    t22.clear()
+    t35.clear()
+    lable.setText("")
+    lable.setStyleSheet("color:gray;font-size:32px;")
+
+app = QApplication([])
+window = QWidget()
+window.setWindowTitle('rfkmre')
+
+
+t11 = '1'
+t12 = '2'
+t13 = '3'
+t13 = '3'
+t14 = '4'
+t15 = '5'
+t16 = '6'
+t17 = '7'
+t18 = '8'
+t19 = '9'
+t10 = '0'
+t1q = '-'
+t1w = '+'
+t1r = 'x'
+t1t = 'C'
+t22 = []
+t23 = []
+t34 = ""
+t35 = []
+re = ["1"]
+er = len(t22)
+lable = QLabel(t34)
+lable.setStyleSheet("color:gray;font-size:32px;")
+
+
+window.setStyleSheet("background:white;border:2px outset gray")
+layout = QHBoxLayout()
+layout2 = QHBoxLayout()
+layout3 = QHBoxLayout()
+layout4 = QHBoxLayout()
+layout5 = QHBoxLayout()
+layout6 = QHBoxLayout()
+layout7 = QHBoxLayout()
+layout8 = QHBoxLayout()
+layout3 = QVBoxLayout()
+
+layout.addWidget(lable)
+
+t1 = QPushButton('1')
+layout2.addWidget(t1)
+t1.setStyleSheet(stfb)
+t1.clicked.connect(lambda: rub(t11, t34, t35))
+
+t2 = QPushButton('2')
+layout2.addWidget(t2)
+t2.setStyleSheet(stfb)
+t2.clicked.connect(lambda: rub2(t12, t34, t23))
+
+t3 = QPushButton('3')
+layout2.addWidget(t3)
+t3.setStyleSheet(stfb)
+t3.clicked.connect(lambda: rub3(t13, t34, t23))
+
+
+t4 = QPushButton('4')
+layout5.addWidget(t4)
+t4.setStyleSheet(stfb)
+t4.clicked.connect(lambda: rub4(t14, t34, t35))
+
+t5 = QPushButton('5')
+layout5.addWidget(t5)
+t5.setStyleSheet(stfb)
+t5.clicked.connect(lambda: rub5(t15, t34, t35))
+
+t6 = QPushButton('6')
+layout5.addWidget(t6)
+t6.setStyleSheet(stfb)
+t6.clicked.connect(lambda: rub6(t16, t34, t35))
+
+t7 = QPushButton('7')
+layout6.addWidget(t7)
+t7.setStyleSheet(stfb)
+t7.clicked.connect(lambda: rub7(t17, t34, t35))
+
+t8 = QPushButton('8')
+layout6.addWidget(t8)
+t8.setStyleSheet(stfb)
+t8.clicked.connect(lambda: rub8(t18, t34, t35))
+
+t9 = QPushButton('9')
+layout6.addWidget(t9)
+t9.setStyleSheet(stfb)
+t9.clicked.connect(lambda: rub9(t19, t34, t35))
+
+tq = QPushButton('-')
+layout7.addWidget(tq)
+tq.setStyleSheet(stfb)
+tq.clicked.connect(lambda: rubq(t1q, t34, t1w, t22, t35, t23, re))
+
+t0 = QPushButton('0')
+layout7.addWidget(t0)
+t0.setStyleSheet(stfb)
+t0.clicked.connect(lambda: rub0(t10, t34, t22, t35))
+
+
+tw = QPushButton('+')
+layout7.addWidget(tw)
+tw.setStyleSheet(stfb)
+tw.clicked.connect(lambda: rubw(t1w, t34, t1q, t22, re))
+
+te = QPushButton('=')
+layout8.addWidget(te)
+te.setStyleSheet(stfb)
+te.clicked.connect(lambda: rube(t34, t22, t23, t35, re))
+
+tr = QPushButton('[x]')
+layout8.addWidget(tr)
+tr.setStyleSheet(stfb)
+tr.clicked.connect(lambda: rubr(t34, t35))
+
+tt = QPushButton('[C]')
+layout8.addWidget(tt)
+tt.setStyleSheet(stfb)
+tt.clicked.connect(lambda: rubt(t22, t35))
+
+
+
+layout3.addLayout(layout)
+layout3.addLayout(layout2)
+layout3.addLayout(layout5)
+layout3.addLayout(layout6)
+layout3.addLayout(layout4)
+layout3.addLayout(layout7)
+layout3.addLayout(layout8)
+
+window.setLayout(layout3)
+
+window.show()
+window.resize(850,400)
+app.exec_()
+
+
